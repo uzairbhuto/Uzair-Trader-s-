@@ -1,12 +1,12 @@
 {
   "name": "Uzair Traders",
   "short_name": "Uzair Traders",
-  "description": "Cosmetics, skincare, stationery aur zaroorat ki cheezein — WhatsApp par order karein.",
+  "description": "Cosmetics, skincare, personal care aur zaroorat ki cheezein — WhatsApp par order karein.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait",
-  "background_color": "#0B0B0B",
+  "background_color": "#FFFFFF",
   "theme_color": "#0B0B0B",
   "lang": "en",
   "icons": [

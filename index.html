@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Uzair Traders — Premium Cosmetics &amp; Perfumes</title>
+<title>Uzair Traders — Premium Cosmetics &amp; Personal Care</title>
 <link rel="manifest" href="manifest.webmanifest">
 <meta name="theme-color" content="#0B0B0B">
 <link rel="icon" type="image/png" href="icon-192.png">
@@ -133,13 +133,21 @@
   @keyframes tabSweep{0%{background-position:150% 0;}100%{background-position:-50% 0;}}
   @keyframes tabGlowPulse{0%,100%{filter:brightness(1);}50%{filter:brightness(1.18);}}
   /* Each category gets its own neon color when active — visual only, same click behavior as before */
-  .filter-btn[data-filter="perfume"].active{border-color:#b084f5;color:#cdb2ff;text-shadow:0 0 8px rgba(139,92,246,0.95),0 0 18px rgba(139,92,246,0.6);box-shadow:0 0 10px 1px rgba(139,92,246,0.6),inset 0 0 12px rgba(139,92,246,0.2);}
   .filter-btn[data-filter="makeup"].active{border-color:#ff6fa5;color:#ff9dc0;text-shadow:0 0 8px rgba(255,111,165,0.95),0 0 18px rgba(255,111,165,0.6);box-shadow:0 0 10px 1px rgba(255,111,165,0.6),inset 0 0 12px rgba(255,111,165,0.2);}
   .filter-btn[data-filter="skincare"].active{border-color:#55efc4;color:#8bf5d6;text-shadow:0 0 8px rgba(85,239,196,0.95),0 0 18px rgba(85,239,196,0.6);box-shadow:0 0 10px 1px rgba(85,239,196,0.6),inset 0 0 12px rgba(85,239,196,0.2);}
   .filter-btn[data-filter="facewash"].active{border-color:#74b9ff;color:#a9d3ff;text-shadow:0 0 8px rgba(116,185,255,0.95),0 0 18px rgba(116,185,255,0.6);box-shadow:0 0 10px 1px rgba(116,185,255,0.6),inset 0 0 12px rgba(116,185,255,0.2);}
   .filter-btn[data-filter="soap"].active{border-color:#81ecec;color:#b0f5f5;text-shadow:0 0 8px rgba(129,236,236,0.95),0 0 18px rgba(129,236,236,0.6);box-shadow:0 0 10px 1px rgba(129,236,236,0.6),inset 0 0 12px rgba(129,236,236,0.2);}
   .filter-btn[data-filter="lotion"].active{border-color:#fab1a0;color:#ffd0c4;text-shadow:0 0 8px rgba(250,177,160,0.95),0 0 18px rgba(250,177,160,0.6);box-shadow:0 0 10px 1px rgba(250,177,160,0.6),inset 0 0 12px rgba(250,177,160,0.2);}
   .filter-btn[data-filter="cream"].active{border-color:#f3d27a;color:#f7e0a3;text-shadow:0 0 8px rgba(243,210,122,0.95),0 0 18px rgba(243,210,122,0.6);box-shadow:0 0 10px 1px rgba(243,210,122,0.6),inset 0 0 12px rgba(243,210,122,0.2);}
+  .filter-btn[data-filter="haircare"].active{border-color:#b084f5;color:#cdb2ff;text-shadow:0 0 8px rgba(139,92,246,0.95),0 0 18px rgba(139,92,246,0.6);box-shadow:0 0 10px 1px rgba(139,92,246,0.6),inset 0 0 12px rgba(139,92,246,0.2);}
+  .filter-btn[data-filter="shampoo"].active{border-color:#4dd0e1;color:#9ceaf2;text-shadow:0 0 8px rgba(77,208,225,0.95),0 0 18px rgba(77,208,225,0.6);box-shadow:0 0 10px 1px rgba(77,208,225,0.6),inset 0 0 12px rgba(77,208,225,0.2);}
+  .filter-btn[data-filter="toothpaste"].active{border-color:#69f0ae;color:#a5f7cb;text-shadow:0 0 8px rgba(105,240,174,0.95),0 0 18px rgba(105,240,174,0.6);box-shadow:0 0 10px 1px rgba(105,240,174,0.6),inset 0 0 12px rgba(105,240,174,0.2);}
+  .filter-btn[data-filter="stationery"].active{border-color:#ffb74d;color:#ffd699;text-shadow:0 0 8px rgba(255,183,77,0.95),0 0 18px rgba(255,183,77,0.6);box-shadow:0 0 10px 1px rgba(255,183,77,0.6),inset 0 0 12px rgba(255,183,77,0.2);}
+  .filter-btn[data-filter="supplement"].active{border-color:#aeea00;color:#d4f56a;text-shadow:0 0 8px rgba(174,234,0,0.95),0 0 18px rgba(174,234,0,0.6);box-shadow:0 0 10px 1px rgba(174,234,0,0.6),inset 0 0 12px rgba(174,234,0,0.2);}
+  .filter-btn[data-filter="healthcare"].active{border-color:#ff7b7b;color:#ffabab;text-shadow:0 0 8px rgba(255,123,123,0.95),0 0 18px rgba(255,123,123,0.6);box-shadow:0 0 10px 1px rgba(255,123,123,0.6),inset 0 0 12px rgba(255,123,123,0.2);}
+  .filter-btn[data-filter="diaper"].active{border-color:#82b1ff;color:#b3cdff;text-shadow:0 0 8px rgba(130,177,255,0.95),0 0 18px rgba(130,177,255,0.6);box-shadow:0 0 10px 1px rgba(130,177,255,0.6),inset 0 0 12px rgba(130,177,255,0.2);}
+  .filter-btn[data-filter="herbaltea"].active{border-color:#81c784;color:#b0deb2;text-shadow:0 0 8px rgba(129,199,132,0.95),0 0 18px rgba(129,199,132,0.6);box-shadow:0 0 10px 1px rgba(129,199,132,0.6),inset 0 0 12px rgba(129,199,132,0.2);}
+  .filter-btn[data-filter="food"].active{border-color:#ffcc80;color:#ffe0b2;text-shadow:0 0 8px rgba(255,204,128,0.95),0 0 18px rgba(255,204,128,0.6);box-shadow:0 0 10px 1px rgba(255,204,128,0.6),inset 0 0 12px rgba(255,204,128,0.2);}
   @media (prefers-reduced-motion: reduce){.filter-btn.active{animation:none;}.filter-btn.active::before{animation:none;display:none;}}
   .filter-scrollbar-track{height:3px;background:rgba(255,255,255,0.08);border-radius:999px;margin-top:10px;overflow:hidden;}
   .filter-scrollbar-thumb{height:100%;width:35%;background:linear-gradient(90deg,var(--gold),var(--gold-light));border-radius:999px;}
@@ -468,7 +476,7 @@ html::-webkit-scrollbar, body::-webkit-scrollbar, #brandPage::-webkit-scrollbar,
   <div class="luxury-bg">
     <span class="l1">LUXURY<br><small>BEAUTY MADE FOR YOU</small></span>
     <span class="l2">OBSESSION</span>
-    <span class="l3">PERFUME</span>
+    <span class="l3">PERSONAL CARE</span>
   </div>
   <div class="bottle-row" aria-hidden="true">
     <svg viewBox="0 0 60 140" fill="none"><rect x="18" y="34" width="24" height="96" rx="4" fill="#E8C766"/><rect x="24" y="10" width="12" height="26" rx="3" fill="#D4AF37"/><rect x="27" y="2" width="6" height="10" rx="2" fill="#F5F5F5"/></svg>
@@ -481,7 +489,7 @@ html::-webkit-scrollbar, body::-webkit-scrollbar, #brandPage::-webkit-scrollbar,
     <div>
       <span class="eyebrow">✨ 10 Premium Brands Ki Distribution</span>
       <h1 class="headline">Pakistan Ka <span class="accent">Bharosemand</span> Beauty Destination</h1>
-      <p class="desc">Original cosmetics aur premium perfumes sirf ek WhatsApp message par. Apni pasand ka product chunein aur ghar baithay order karein!</p>
+      <p class="desc">Original cosmetics aur premium personal care products sirf ek WhatsApp message par. Apni pasand ka product chunein aur ghar baithay order karein!</p>
       <div class="hero-ctas">
         <a class="btn-gold" href="#products">Products Dekhein</a>
         <a class="btn-primary" href="https://wa.me/923193455171?text=Assalam-o-Alaikum%2C%20mujhe%20order%20karna%20hai." target="_blank" rel="noopener">
@@ -519,7 +527,7 @@ html::-webkit-scrollbar, body::-webkit-scrollbar, #brandPage::-webkit-scrollbar,
   <div class="wrap">
     <div class="section-head">
       <span class="kicker">🛍️ Hamari Products</span>
-      <h2>Premium <span class="accent">Cosmetics</span> &amp; Perfumes</h2>
+      <h2>Premium <span class="accent">Cosmetics</span> &amp; Personal Care</h2>
       <p>Duniya ki mashhoor brands ki original products. Apni pasand ka product chunein aur WhatsApp par order karein!</p>
     </div>
 
@@ -533,13 +541,21 @@ html::-webkit-scrollbar, body::-webkit-scrollbar, #brandPage::-webkit-scrollbar,
     <div class="filter-scroll-wrap">
       <div class="filters" id="filterRow">
         <button class="filter-btn active" data-filter="all">All</button>
-        <button class="filter-btn" data-filter="perfume">Perfume</button>
         <button class="filter-btn" data-filter="makeup">Makeup</button>
         <button class="filter-btn" data-filter="skincare">Skincare</button>
         <button class="filter-btn" data-filter="facewash">Face Wash</button>
         <button class="filter-btn" data-filter="soap">Soap</button>
         <button class="filter-btn" data-filter="lotion">Lotion</button>
         <button class="filter-btn" data-filter="cream">Cream</button>
+        <button class="filter-btn" data-filter="haircare">Hair Care</button>
+        <button class="filter-btn" data-filter="shampoo">Shampoo</button>
+        <button class="filter-btn" data-filter="toothpaste">Oral Care</button>
+        <button class="filter-btn" data-filter="stationery">Stationery</button>
+        <button class="filter-btn" data-filter="supplement">Fiber Supplement</button>
+        <button class="filter-btn" data-filter="healthcare">Health Care</button>
+        <button class="filter-btn" data-filter="diaper">Diapers</button>
+        <button class="filter-btn" data-filter="herbaltea">Herbal Tea</button>
+        <button class="filter-btn" data-filter="food">Food</button>
       </div>
       <div class="filter-scrollbar-track"><div class="filter-scrollbar-thumb" id="filterThumb"></div></div>
     </div>
@@ -574,8 +590,8 @@ html::-webkit-scrollbar, body::-webkit-scrollbar, #brandPage::-webkit-scrollbar,
   <div class="wrap contact-card">
     <div class="brand-mark contact-logo" onclick="document.getElementById('logoLightbox').classList.add('open')"><img src="" data-logo-fill alt="Uzair Traders logo"></div>
     <h2 class="font-display contact-name">Uzair Traders</h2>
-    <div class="contact-tag">Premium Cosmetics &amp; Perfumes</div>
-    <p class="contact-desc">Pakistan ka bharosemand cosmetics aur perfume distributor. 10 badi international brands ki 100% original products ab aapki doorstep par!</p>
+    <div class="contact-tag">Premium Cosmetics &amp; Personal Care</div>
+    <p class="contact-desc">Pakistan ka bharosemand cosmetics aur personal care distributor. 10 badi international brands ki 100% original products ab aapki doorstep par!</p>
     <a class="btn-primary" href="https://wa.me/923193455171?text=Assalam-o-Alaikum%2C%20mujhe%20order%20karna%20hai." target="_blank" rel="noopener">
       <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.39 1.26 4.82L2 22l5.4-1.36a9.87 9.87 0 0 0 4.64 1.18h.01c5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2Zm5.8 14.02c-.24.68-1.4 1.3-1.93 1.36-.5.06-1.02.28-3.43-.72-2.9-1.2-4.77-4.15-4.92-4.35-.14-.2-1.17-1.56-1.17-2.98 0-1.42.75-2.11 1.02-2.4.26-.29.57-.36.76-.36h.55c.18 0 .42-.02.64.5.24.57.82 1.98.9 2.12.07.14.12.31.02.5-.1.19-.15.31-.29.48-.14.17-.3.37-.43.5-.14.14-.29.29-.13.57.17.29.75 1.24 1.61 2.01 1.11.99 2.04 1.3 2.33 1.44.29.14.46.12.63-.07.17-.19.72-.83.91-1.12.19-.29.38-.24.63-.14.26.1 1.64.77 1.92.91.29.14.48.21.55.33.07.12.07.71-.17 1.39Z"/></svg>
       Abhi Order Karein
@@ -846,7 +862,7 @@ const ICONS = {
   cream:    `<svg viewBox="0 0 64 64" fill="none"><rect x="14" y="26" width="36" height="30" rx="8" fill="#E8C766" fill-opacity="0.9" stroke="#0B0B0B" stroke-width="1.5"/><rect x="16" y="18" width="32" height="10" rx="5" fill="#E8C766"/><circle cx="32" cy="20" r="4" fill="#0B0B0B" fill-opacity="0.5"/></svg>`,
   haircare: `<svg viewBox="0 0 64 64" fill="none"><path d="M22 18h20v10c6 4 9 10 9 18v10c0 3-2 5-5 5H18c-3 0-5-2-5-5V46c0-8 3-14 9-18v-10z" fill="#E8C766" fill-opacity="0.9" stroke="#0B0B0B" stroke-width="1.5"/><rect x="27" y="8" width="10" height="10" rx="2" fill="#E8C766"/></svg>`
 };
-const CAT_LABEL = { perfume:"Perfume", makeup:"Makeup", skincare:"Skincare", facewash:"Face Wash", soap:"Soap", lotion:"Lotion", cream:"Cream", shampoo:"Shampoo", stationery:"Stationery", supplement:"Fiber Supplement", toothpaste:"Oral Care", food:"Food", healthcare:"Health Care", herbaltea:"Herbal Tea", haircare:"Hair Care", diaper:"Diapers" };
+const CAT_LABEL = { makeup:"Makeup", skincare:"Skincare", facewash:"Face Wash", soap:"Soap", lotion:"Lotion", cream:"Cream", shampoo:"Shampoo", stationery:"Stationery", supplement:"Fiber Supplement", toothpaste:"Oral Care", food:"Food", healthcare:"Health Care", herbaltea:"Herbal Tea", haircare:"Hair Care", diaper:"Diapers" };
 const WA_NUMBER = "923193455171";
 
 function formatPKR(n){ return "Rs. " + n.toLocaleString("en-PK"); }
@@ -1384,34 +1400,54 @@ const filterThumb = document.getElementById('filterThumb');
    on mobile and desktop alike (clamped to the track). On a category click it
    glides there with a JS animation that keeps chasing the tab while the row
    itself scrolls, so the movement is smooth on every screen size. */
+/* Peeli patti (size pehle jaisi, CSS wali) ke do tareeqe:
+   1) 'scroll' - filters ko left/right karein to patti bhi saath saath 0 se 100% chalti hai.
+   2) 'active' - kisi filter par tap karein to filters scroll hoke ruk jayen, tab patti
+      usi filter ke neeche aa kar ruk jati hai.
+   Phir ungli se dobara left/right karne par patti wapis scroll ke saath chalne lagti hai. */
+let thumbMode = 'scroll';
 let thumbAnim = null;
-function computeThumbLeft(){
+let lastScrollAt = 0;
+
+function thumbMaxLeft(){
+  return Math.max(0, filterThumb.parentElement.clientWidth - filterThumb.offsetWidth);
+}
+function scrollProgressLeft(){
+  const maxScroll = filterRow.scrollWidth - filterRow.clientWidth;
+  if (maxScroll <= 1) return 0;
+  const p = Math.max(0, Math.min(1, filterRow.scrollLeft / maxScroll));
+  return p * thumbMaxLeft();
+}
+function underActiveLeft(){
   const active = filterRow.querySelector('.filter-btn.active') || filterRow.querySelector('.filter-btn');
   if (!active) return 0;
-  const trackEl = filterThumb.parentElement;
-  const ar = active.getBoundingClientRect(), tr = trackEl.getBoundingClientRect();
+  const ar = active.getBoundingClientRect(), tr = filterThumb.parentElement.getBoundingClientRect();
   const center = ar.left + ar.width / 2 - tr.left;
-  return Math.max(0, Math.min(center - filterThumb.offsetWidth / 2, trackEl.clientWidth - filterThumb.offsetWidth));
+  return Math.max(0, Math.min(center - filterThumb.offsetWidth / 2, thumbMaxLeft()));
 }
+function setThumb(left){ filterThumb.style.transform = `translateX(${left}px)`; }
 function currentThumbLeft(){
   const m = /translateX\((-?[\d.]+)px\)/.exec(filterThumb.style.transform || '');
   return m ? parseFloat(m[1]) : 0;
 }
 function updateFilterThumb(){
   if (thumbAnim) return;
-  filterThumb.style.transform = `translateX(${computeThumbLeft()}px)`;
+  setThumb(thumbMode === 'active' ? underActiveLeft() : scrollProgressLeft());
 }
+/* Tap par: patti narmi se tab ke neeche jati hai, aur filters ke scroll rukne tak
+   usay chase karti rehti hai, taake aakhir mein theek usi filter ke neeche ruke. */
 function animateThumb(){
+  thumbMode = 'active';
   if (thumbAnim) cancelAnimationFrame(thumbAnim);
   const startLeft = currentThumbLeft();
   const t0 = performance.now(), dur = 450;
   const step = (now)=>{
     const t = Math.min(1, (now - t0) / dur);
     const e = t < 0.5 ? 4*t*t*t : 1 - Math.pow(-2*t + 2, 3) / 2; // easeInOutCubic
-    const left = startLeft + (computeThumbLeft() - startLeft) * e;
-    filterThumb.style.transform = `translateX(${left}px)`;
-    if (t < 1) { thumbAnim = requestAnimationFrame(step); }
-    else { thumbAnim = null; updateFilterThumb(); }
+    setThumb(startLeft + (underActiveLeft() - startLeft) * e);
+    const stillScrolling = (now - lastScrollAt) < 120 && (now - t0) < 1500;
+    if (t < 1 || stillScrolling) { thumbAnim = requestAnimationFrame(step); }
+    else { thumbAnim = null; setThumb(underActiveLeft()); }
   };
   thumbAnim = requestAnimationFrame(step);
 }
@@ -1434,8 +1470,15 @@ document.querySelectorAll('.filter-btn').forEach(btn=>{
   });
 });
 
-filterRow.addEventListener('scroll', updateFilterThumb);
+filterRow.addEventListener('scroll', ()=>{
+  lastScrollAt = performance.now();
+  // tap wali animation nahi chal rahi aur scroll hua = user ne ungli se scroll kiya
+  if (!thumbAnim && thumbMode === 'active') thumbMode = 'scroll';
+  updateFilterThumb();
+}, { passive: true });
 window.addEventListener('resize', updateFilterThumb);
+window.addEventListener('load', updateFilterThumb);
+updateFilterThumb();
 
 /* Desktop mouse drag-to-scroll for the category tab row (no touchscreen needed) */
 (() => {
